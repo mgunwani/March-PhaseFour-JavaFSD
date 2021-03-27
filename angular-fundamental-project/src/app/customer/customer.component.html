@@ -1,0 +1,35 @@
+<h2>{{ title }}</h2>
+
+<h3>Interpolation Binding:</h3>
+<p>Customer Code: {{ customerObj.CustomerCode }}</p>
+<p>Customer Name: {{ customerObj.CustomerName }}</p>
+<p>Customer Amount: {{ customerObj.CustomerAmount }}</p>
+
+
+<!-- <h3>Interpolation Binding:</h3>
+<p>Customer Code: {{ custObj.custCode }}</p>
+<p>Customer Name: {{ custObj.custName }}</p>
+<p>Customer Amount: {{ custObj.custAmount }}</p> -->
+
+<!-- <h3>One Way Data Binding(Property Binding):</h3>
+<p>Customer Code : <input type="text" name="custCode" [value]="custObj.custCode" /></p>
+<p>Customer Name : <input type="text" name="custName" [value]="custObj.custName" /></p>
+<p>Customer Amount : <input type="text" name="custAmount" [value]="custObj.custAmount" /></p> -->
+
+<!-- <h3>One Way Data Binding(Event Binding):</h3>
+<p>Customer Code : <input type="text" name="custCode" (input)="custObj.custCode=$event.target.value" /></p>
+<p>Customer Name : <input type="text" name="custName" (input)="custObj.custName=$event.target.value" /></p>
+<p>Customer Amount : <input type="text" name="custAmount" (input)="custObj.custAmount=$event.target.value" /></p> -->
+
+<!-- <h3>Two Way Data Binding</h3>
+<p>Customer Code : <input type="text" name="custCode" [value]="custObj.custCode"
+        (input)="custObj.custCode=$event.target.value" /></p>
+<p>Customer Name : <input type="text" name="custName" [value]="custObj.custName"
+        (input)="custObj.custName=$event.target.value" /></p>
+<p>Customer Amount : <input type="text" name="custAmount" [value]="custObj.custAmount"
+        (input)="custObj.custAmount=$event.target.value" /></p> -->
+
+<!-- <h3>Two Way Data Binding</h3>
+<p>Customer Code : <input type="text" name="custCode" [(ngModel)]="custObj.custCode" /></p>
+<p>Customer Name : <input type="text" name="custName" [(ngModel)]="custObj.custName" /></p>
+<p>Customer Amount : <input type="text" name="custAmount" [(ngModel)]="custObj.custAmount" /></p> -->
