@@ -1,0 +1,15 @@
+<div class="card" style="width: 62rem;">
+    <div class="card-header">
+        Details of <b>{{user.name}}</b>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Id: {{ user.id }}</li>
+        <li class="list-group-item">Name: {{ user.name }}</li>
+        <li class="list-group-item">Email: {{ user.email }}</li>
+        <li class="list-group-item">Phone: {{ user.phone }}</li>
+        <li class="list-group-item">Website: {{ user.website }}</li>
+    </ul>
+    <div class="card-footer">
+        <a class="btn btn-secondary" routerLink="/users">Go Back</a>
+    </div>
+</div>

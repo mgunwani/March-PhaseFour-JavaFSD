@@ -1,0 +1,23 @@
+<h2>{{this.title}}</h2> <br />
+<h3>{{this.message}}</h3>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>
+                <a [routerLink]='["/user-detail", user.id]'>View Details</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
